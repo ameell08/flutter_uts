@@ -1,0 +1,71 @@
+import '../models/recipe.dart';
+
+List<Recipe> sampleRecipes = [
+  Recipe(
+    title: 'Nasi Goreng Spesial',
+    description: 'Nasi goreng dengan bumbu special dan topping lengkap',
+    imageUrl: 'images/nasi_goreng_spesial.png',
+    ingredients: [
+      '2 piring nasi putih',
+      '2 butir telur',
+      '3 siung bawang merah',
+      '2 siung bawang putih',
+      'Kecap manis secukupnya',
+      'Garam dan merica secukupnya',
+    ],
+    steps: [
+      'Haluskan bawang merah dan bawang putih',
+      'Tumis bumbu halus hingga harum',
+      'Masukkan telur, buat orak-arik',
+      'Masukkan nasi putih',
+      'Tambahkan kecap, garam, dan merica',
+      'Aduk rata hingga matang',
+    ],
+    duration: '15 menit',
+    difficulty: 'Mudah',
+  ),
+  Recipe(
+    title: 'Ayam Goreng Crispy',
+    imageUrl: 'images/ayam_goreng_crispy.png',
+    description: 'Ayam goreng dengan tepung crispy yang renyah',
+    ingredients: [
+      '500g ayam potong',
+      'Tepung terigu',
+      'Tepung maizena',
+      'Telur',
+      'Bumbu racik ayam goreng',
+    ],
+    steps: [
+      'Marinasi ayam dengan bumbu racik',
+      'Siapkan adonan tepung kering dan basah',
+      'Celupkan ayam ke adonan basah',
+      'Balut dengan tepung kering',
+      'Goreng hingga keemasan',
+    ],
+    duration: '30 menit',
+    difficulty: 'Sedang',
+  ),
+  Recipe(
+    title: 'Soto Ayam',
+    imageUrl: 'images/soto_ayam.png',
+    description: 'Soto ayam kuah bening dengan bumbu lengkap',
+    ingredients: [
+      'Ayam',
+      'Bawang merah',
+      'Bawang putih',
+      'Jahe',
+      'Kunyit',
+      'Serai',
+      'Daun jeruk',
+    ],
+    steps: [
+      'Rebus ayam hingga empuk',
+      'Tumis bumbu halus',
+      'Masukkan ke dalam kaldu ayam',
+      'Tambahkan serai dan daun jeruk',
+      'Masak hingga matang',
+    ],
+    duration: '45 menit',
+    difficulty: 'Sedang',
+  ),
+];
